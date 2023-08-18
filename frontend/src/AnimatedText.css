@@ -1,0 +1,24 @@
+
+
+.text {
+  font-size: 2rem;
+  color: black;
+  overflow: hidden;
+  border-right: 2px solid white;
+  animation: typing 1s steps(50) infinite, blink 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
